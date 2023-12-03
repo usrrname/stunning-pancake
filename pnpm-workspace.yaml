@@ -1,0 +1,11 @@
+packages:
+  # all packages in direct subdirs of packages/
+  - 'packages/*'
+  # component lib src
+  - 'lib/**'
+  # all applications
+  - 'apps/**'
+  # all packages in subdirs of apps/
+  - 'apps/nuxt3/**'
+  # exclude packages that are inside test directories
+  - '!**/test/**'
